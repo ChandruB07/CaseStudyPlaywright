@@ -1,0 +1,22 @@
+{
+  "Browser": "chrome",
+  "PageLoadTimeout": "60",
+  "ElementLoadTimeout": "60",
+  "Timeout": "120000",
+  "Environment": "DEMO",
+  "HeadlessCondition": "No",
+  "DEMO": "TestData\\TestDataDemo.json",
+  "isScenarioScreenshotEnabled": true,
+  "ExecutionMode": "Web",
+  "isSendMailForFailureEnabled": false,
+  "isCrossBrowserTestEnabled": false,
+  "isNetworkEventsEnabled": false,
+  "isTraceViewEnabled": true,
+  "SuccessStepsScreenshotEnabled": true,
+  "BaseUrl": "https://marmelab.com/atomic-crm-demo/",
+  "ProjectName": "Atomic CRM Automation",
+  "BuildName": "Atomic CRM Case Study Execution",
+  "PdfReportPath": "../../../Reports",
+  "ScreenshotPath": "Screenshots",
+  "TracePath": "Traces"
+}

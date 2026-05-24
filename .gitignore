@@ -1,0 +1,80 @@
+# Build outputs
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.user
+*.suo
+*.cache
+
+# Playwright
+.playwright/
+playwright-report/
+test-results/
+
+# Test Results
+TestResults/
+Screenshots/
+Traces/
+Logs/
+*.trx
+*.html
+*.zip
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln.docstates
+
+# User-specific files
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# Mono auto generated files
+mono_crash.*
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+# Test output
+TestExecution.json
+
+# Sensitive data (uncomment if needed)
+# Configuration/TestData/*
+# appsettings.*.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Node modules (if any)
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*~
